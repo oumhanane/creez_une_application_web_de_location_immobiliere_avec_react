@@ -16,3 +16,11 @@
     text-align: center;
     
 }
+
+@media (max-width: 767.98px){
+    .footer_text {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}

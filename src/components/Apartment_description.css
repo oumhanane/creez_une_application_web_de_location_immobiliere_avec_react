@@ -1,0 +1,57 @@
+.description {
+    width: 50%;
+}
+
+.description_header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FF6060;
+    color: white;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 0; 
+    font-size: 1.2rem;
+}
+
+.description_text {
+    background-color: rgb(240, 240, 225);
+    margin-top: 0;
+    padding-top: 1rem;
+    padding-inline: 1rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    font-size: 1.2rem;
+    position: relative;
+    top: -1rem;
+    z-index: -1;
+    height: 15rem;
+    color: #FF6060;
+}
+
+.description_text i {
+    cursor: pointer;
+}
+
+@media (max-width: 767.98px){
+    .apartments {
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 0;
+    }
+    .proprio {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .description_area {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        margin-top: 0;
+        
+    }
+    .description {
+        width: 100%;
+    }
+}

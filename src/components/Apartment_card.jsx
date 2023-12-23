@@ -4,12 +4,12 @@ import {Link} from "react-router-dom"
 function Apartment_card() {
   return (
     <div className='apartment_card'>
-      <Link to="/Apartments">      
-        <div className="apartment_title">
-          Titre de la location
-        </div>
+      <Link to="/Apartments"> 
+      <div className="apartment_card_detail">   
+        <div className="apartment_title">Titre de la location</div>
+      </div>
       </Link>
-    </div> 
+    </div>  
   )
 }
 
