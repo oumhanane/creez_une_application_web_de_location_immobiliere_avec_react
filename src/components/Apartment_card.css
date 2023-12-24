@@ -24,6 +24,11 @@
     text-decoration: none;
 }
 
+.apartment_card_detail {
+    height: 300px;
+    width: 100%;
+}
+
 .apartment_title {
     width: 50%;
     margin-inline-start: 1rem;
