@@ -1,0 +1,29 @@
+.title404, .text404, .redirection_accueil {
+    color:#FF6060;
+}
+
+.title404 {
+    font-size: 10rem;
+    font-weight: 600;
+}
+
+.text404 {
+    font-size: 1.5rem;
+    margin-bottom: 6rem;
+}
+
+.redirection_accueil {
+    font-size: 0.9rem;
+    color: #FF6060;
+}
+
+.redirection_accueil:hover {
+    text-decoration: underline;
+}
+
+.container_page404 {
+    min-height: 50vh;
+    width: 95%;
+    margin: auto;
+    text-align: center;
+}
