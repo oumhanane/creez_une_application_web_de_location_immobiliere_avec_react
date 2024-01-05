@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import "./Apartment_card.css";
 import {Link} from "react-router-dom"
 
@@ -8,7 +7,6 @@ function Apartment_card(props) {
       <Link 
       to="/Apartments"
       state={{ 
-        // eslint-disable-next-line react/prop-types
         apartmentId: props.id 
         }}
       >

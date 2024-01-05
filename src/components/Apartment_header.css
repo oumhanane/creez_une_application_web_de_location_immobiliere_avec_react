@@ -8,7 +8,15 @@
     gap: 1rem;
 }
 
-.apartment_tag {
+.apartment_place span {
+    background-color: #FF6060;
+    color: white;
+    border-radius: 1rem;
+    padding: 0.6rem;
+    padding-inline: 2.7rem;
+}
+
+/* .apartment_tag {
     background-color: #FF6060;
     color: white;
     padding: 0.2em 1em;
@@ -17,7 +25,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 
 .badge {
     border: 3px solid rgb(205, 204, 204);
@@ -25,6 +33,12 @@
     width: 64px;
     border-radius: 50%;
     background-color: rgb(205, 204, 204);
+}
+
+.badge img {
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
 }
 
 .title, .proprio {
@@ -55,9 +69,14 @@
     display: flex;  
     justify-content: space-between;
     margin-top: 1rem;
+    font-size: 2rem;
 }
 
-.apartment_stars {
+.on {
+    color: #FF6060;
+}
+
+/* .apartment_stars {
     font-size: 2rem;
     color: #FF6060;
 }
@@ -80,7 +99,7 @@
 
 .apartment_stars:nth-child(5) {
     color: rgb(205, 204, 204);
-}
+} */
 
 /****** Media queries ***********/
 @media (max-width: 767.98px) {

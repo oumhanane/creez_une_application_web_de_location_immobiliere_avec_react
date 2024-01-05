@@ -2,7 +2,6 @@
 
 Objectif : Démarrer le projet React et développer l’ensemble de l’application, les composants React, les routes React Router, en suivant les maquettes Figma (responsives !).
 
-Back-end / data : Le recrutement de la personne en charge du back-end n'est pas terminé et va prendre plus de temps que prévu. Du coup, il va falloir que tu fasses sans pour le moment. Je t'ai extrait les 20 dernières annonces de logements dans ce fichier JSON pour que tu puisses construire le Front qui correspond.
 
 Contraintes techniques : les coding guidelines de Kasa sont fournis. Habituellement Create React App est utilisé pour créer les applications React, mais on peut utiliser un autre bundler comme Vite par exemple.
 

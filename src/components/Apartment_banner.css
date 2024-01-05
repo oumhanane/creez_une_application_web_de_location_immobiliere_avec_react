@@ -4,3 +4,8 @@
     border-radius: 2rem;
     object-fit: cover;
 }
+
+.apartment_page {
+    margin-inline: 2rem;
+    margin-bottom: 2rem;
+}
