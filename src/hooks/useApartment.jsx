@@ -14,9 +14,12 @@ export function useApartment() {
         setFlat(flat);
       })
       .catch(console.error);
+
     return () => {
       abortController.abort();
     };
-  }, []);
+  }, [location.state.apartmentId]); 
+
   return flat;
 }
+
