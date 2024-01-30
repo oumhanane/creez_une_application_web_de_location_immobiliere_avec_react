@@ -9,11 +9,11 @@ function Apartment_description(props) {
     setIsContentVisible(!isContentVisible);
   };
 
-  const contentClass = (isContentVisible ? "visible" : "hidden") + " des";
-  const chevronClass = (isContentVisible ? "fa-chevron-up" : "fa-chevron-down") + " fas";
+  // const contentClass = (isContentVisible ? "visible" : "hidden") + "description__content";
+  // const chevronClass = (isContentVisible ? "fa-chevron-up" : "fa-chevron-down") + " fas";
 
-  // Vérifiez si content est défini avant de l'utiliser
-  const displayContent = props.content !== null ? props.content : '';
+  const contentClass = `description_content ${isContentVisible ? "visible" : "hidden"}`;
+  const chevronClass = `fas ${isContentVisible ? "fa-chevron-up" : "fa-chevron-down"}`;
 
   return (
     <div className="description">
@@ -21,9 +21,7 @@ function Apartment_description(props) {
         <span>{props.title}</span>
         <i className={chevronClass}></i>
       </p>
-      <div className="description_text">
-        <p className={contentClass}>{displayContent}</p>
-      </div>
+      <p className={contentClass}>{props.content}</p>
     </div>
   )
 }

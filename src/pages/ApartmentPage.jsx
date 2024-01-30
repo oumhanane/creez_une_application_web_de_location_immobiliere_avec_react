@@ -18,9 +18,13 @@ function ApartmentPage() {
               content={flat.description} />
             < Apartment_description 
               title="Equipements" 
-              content={flat.equipements ? flat.equipements.map((eq,i) => (
-                <li key={i}>{eq}</li>
-              )) : null }
+              content={flat.equipments ? (
+                <ul>
+                  {flat.equipments.map((eq, i) => (
+                    <li key={i}>{eq}</li>
+                  ))}
+                </ul>
+              ) : "Aucun équipement disponible"}
             />
         </div>
     </div>
