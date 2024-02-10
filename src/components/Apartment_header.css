@@ -16,17 +16,6 @@
     padding-inline: 2.7rem;
 }
 
-/* .apartment_tag {
-    background-color: #FF6060;
-    color: white;
-    padding: 0.2em 1em;
-    border-radius: 0.5rem;
-    width: 6rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
-
 .badge {
     border: 3px solid rgb(205, 204, 204);
     height: 64px;
@@ -76,31 +65,6 @@
 .on {
     color: #FF6060;
 }
-
-/* .apartment_stars {
-    font-size: 2rem;
-    color: #FF6060;
-}
-
-.apartment_stars:nth-child(1) {
-    color: #FF6060;
-}
-
-.apartment_stars:nth-child(2) {
-    color: #FF6060;
-}
-
-.apartment_stars:nth-child(3) {
-    color: #FF6060;
-}
-
-.apartment_stars:nth-child(4) {
-    color: rgb(205, 204, 204);
-}
-
-.apartment_stars:nth-child(5) {
-    color: rgb(205, 204, 204);
-} */
 
 /****** Media queries ***********/
 @media (max-width: 767.98px) {

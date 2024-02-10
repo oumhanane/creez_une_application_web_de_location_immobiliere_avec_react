@@ -5,10 +5,6 @@
     /* border: solid 1px red; */
 }
 
-/* .logo {
-    height: 80px;
-} */
-
 .navbar{
     text-align: right;
     display:flex;
@@ -33,6 +29,7 @@
     font-size: 24px;
 }
 
+/****** Media queries ***********/
 @media (max-width: 767.98px) {
     .nav_li {
         text-transform: uppercase;

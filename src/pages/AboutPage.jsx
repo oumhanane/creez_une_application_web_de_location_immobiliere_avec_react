@@ -7,10 +7,10 @@ function AboutPage() {
     <>
     < Apartment_banner />
     <div className="apartment_description_container">
-        < Apartment_description />
-        < Apartment_description />
-        < Apartment_description />
-        < Apartment_description />
+        < Apartment_description title="Fiabilité" content="Lorem ipsum dolor sit ame"/>
+        < Apartment_description title="Respect" content="Lorem ipsum dolor sit ame"/>
+        < Apartment_description title="Service" content="Lorem ipsum dolor sit ame"/>
+        < Apartment_description title="Responsabilité" content="Lorem ipsum dolor sit ame"/>
     </div>
     </>
   )

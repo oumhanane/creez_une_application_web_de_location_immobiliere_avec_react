@@ -12,32 +12,3 @@
 .description_area i {
     cursor: pointer;
 }
-
-/* .equipement_header {
-    display: flex;
-    justify-content: space-between;
-    background-color: #FF6060;
-    color: white;
-    border-radius: 1rem;
-    padding: 1rem;
-    margin-bottom: 0; 
-    font-size: 1.2rem;
-} */
-
-/* .equipement_text {
-    background-color: rgb(240, 240, 225);
-    margin-top: 0;
-    padding-top: 1rem;
-    padding-inline: 1rem;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
-    font-size: 1.2rem;
-    position: relative;
-    top: -1rem;
-    z-index: -1;
-    height: 15rem;
-}
-
-.equipement_text p {
-    margin: 0.3rem;
-} */
